@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+body a {
+    text-decoration: none;
+}
+header {
+    display: block;
+    position:absolute;
+    width:100%;
+
+}
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    margin:0 40px;
+    padding-top: 20px;
+}
+.header-left img {
+    display:block;
+    width:auto;
+    height:20px;
+}
+.bi {
+    display: none;
+}
+
+.header-right ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+}
+.header-right li {
+    margin-right:30px;
+}
+.menu{
+    color:black;
+    display: block;
+}
+
+.menu >span:first-child{
+    font-weight: 900;
+    font-size:14px;
+}
+.menu >span:last-child {
+    font-size: 12px;
+    font-weight: 600;
+}
+.menu>span:last-child:hover {
+    opacity:0.8;
+}
+.menu:hover {
+    color:black;
+}
+.btn {
+    display:inline-block;
+    border-radius: 40px;
+    padding:10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover {
+    opacity: 0.8;
+} 
+.counseling {
+    background-color:#f79214;
+    color:white;
+    font-size:13px;
+}
+.counseling:hover {
+    color:white;
+}
+
+.first-view {
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.first-view-contents {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.heading {
+    padding-top:100px;
+    padding-bottom: 50px;
+    width: fit-content;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.heading-images {
+    display:flex;
+    align-items: center;  
+    justify-content: space-around;     
+}
+.short-image {
+    display: none;
+}
+.heading-images img:nth-child(2) {
+    width: 40%;
+}
+.heading-images img:nth-child(1),.heading-images img:nth-child(3) {
+    width: 25%;
+}
+
+.heading-button a{
+    display:inline-block;
+    border-radius: 40px;
+    padding:20px 30px;
+    margin-top:30px ;
+    font-size:18px;
+    
+}
+.document {
+    border: 1px solid gray;
+    font-weight: 600;
+    color: black;
+    margin-left:20px;
+    
+}
+.heading li {
+    list-style: none;
+    color:gray;
+}
+
+.first-view-caption{
+    color:gray;
+    font-size: 13px;
+}
+.about-wrapper {
+    background-color: #f79214;
+    padding: 40px 0
+
+}
+.about-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    display: flex;
+    gap:20px;
+}
+.youtube {
+    width:50%;
+}
+.about {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+   /* display:flex;
+    flex-direction: column;*/
+}
+.about  {
+    font-size: 38px;
+    font-weight: 900;
+}
+.about p {
+    font-size: 18px;
+}
+.about a {
+    color: white;
+    font-size:20px;
+}
+.about img {
+    margin-right:5px;
+}
